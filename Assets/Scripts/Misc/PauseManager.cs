@@ -1,0 +1,48 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PauseManager : MonoBehaviour {
+
+    public string pausedTitle = "PAUSED";
+    public string resumeButtonText = "RESUME";
+
+    public Text titleText;
+    public Text buttonText;
+
+    Canvas menuCanvas;
+    Canvas hudCanvas;
+	Canvas messageCanvas;
+
+    bool gameHasStarted = false;
+
+    void Start() {
+        menuCanvas = GetComponent<Canvas>();
+        hudCanvas = GameObject.Find("HUDCanvas").GetComponent<Canvas>();
+		menuCanvas.enabled = false;
+		hudCanvas.enabled = true;
+		messageCanvas = GameObject.Find("MessageCanvas").GetComponent<Canvas>();
+		messageCanvas.enabled = false;
+		//GameObject.Find ("AlertPanel").SetActive (false);//disable the warning message on load
+        //hudCanvas.enabled = false;
+        //Time.timeScale = 0; //use to stop the time
+    }
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            gameHasStarted = true;
+            Pause();
+        }
+    }
+
+    public void Pause() {
+        menuCanvas.enabled = !menuCanvas.enabled;
+        hudCanvas.enabled = !hudCanvas.enabled;
+
+        Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+
+        if (gameHasStarted) {
+            titleText.text = pausedTitle;
+            buttonText.text = resumeButtonText;
+        }
+    }
+}
