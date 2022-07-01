@@ -1,0 +1,185 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1992 MB
+    Driver:   21.21.13.7270
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.027 seconds
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Archive\Terrain1\Survival Shooter\Game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The tree Tree couldn't be instanced because the prefab contains no valid mesh renderer.
+ 
+(Filename:  Line: 160)
+
+UnloadTime: 1.334258 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 185)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 114c -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.617777 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 185)
+
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.904739 ms (FindLiveObjects: 0.143689 ms CreateObjectMapping: 0.145399 ms MarkObjects: 1.034477 ms  DeleteObjects: 0.580316 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Soldier_demo 1/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger0Nub/GunBarrelEnd"
+ 
+(Filename:  Line: 0)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 26.942608 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 185)
+
+
+Unloading 779 unused Assets to reduce memory usage. Loaded Objects now: 989.
+Total: 4.308542 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.108194 ms MarkObjects: 0.436199 ms  DeleteObjects: 3.638419 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.865233 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 185)
+
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 1.158922 ms (FindLiveObjects: 0.062008 ms CreateObjectMapping: 0.065002 ms MarkObjects: 0.621370 ms  DeleteObjects: 0.409685 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Soldier_demo 1/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger0Nub/GunBarrelEnd"
+ 
+(Filename:  Line: 0)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.286466 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 185)
+
+
+Unloading 655 unused Assets to reduce memory usage. Loaded Objects now: 998.
+Total: 2.880201 ms (FindLiveObjects: 0.081680 ms CreateObjectMapping: 0.070561 ms MarkObjects: 0.328432 ms  DeleteObjects: 2.399098 ms)
+
